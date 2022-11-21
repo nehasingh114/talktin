@@ -1,0 +1,498 @@
+#Protect{
+    height: 92vh;
+    /* border: solid; */
+
+}
+#Protect .protectmain{
+    display: grid;
+    width: 90%;
+    height: 500px;
+    /* border: 1px solid red; */
+    grid-template-columns: 32%  auto;
+    gap: 1rem;
+
+    margin: 3rem auto;
+}
+.protectmain .pleft{
+    /* border: 1px solid green; */
+    height: 500px;
+   
+    
+
+}
+.pleft>img{
+    width: 100%;
+    height: 100%;
+}
+.protectmain .pright{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.pright>:nth-child(1){
+    /* border: 1px solid orange; */
+    background-color: #f5f6f6;
+    height: 70%;
+}
+.pright>:nth-child(2){
+    /* border: 1px solid orange; */
+    height: 25%;
+
+}
+.pright .ptitle{
+    color: #292929;
+    font-family: "Hind",Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.44em;
+    text-align: center;
+}
+.pright hr,.benefitshead>hr,.clientheaddiv>hr{
+    width: 70px;
+    font-weight: bolder;
+    border: 3px solid green;
+    background-color: green;
+ 
+}
+.pright .pheading{
+    color: #38ad39;
+    font-family: "Source Sans Pro",Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5em;
+}
+.pright .ptag,.bptag{
+    width: 68%;
+    margin: auto;
+    color: #5f656d;
+    font-family: "Source Sans Pro",Sans-serif;
+    font-size: 16px;
+    line-height: 2rem;
+    
+}
+.prdiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-family: "Source Sans Pro",Sans-serif;
+    color: white;
+    background-color:  #38ad39;
+}
+.prdiv2>button{
+    border: none;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* benefits */
+
+#benifits{
+    
+    /* border: 1px solid black; */
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_14995/v1/wp-content/uploads/2017/12/bgpattern3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2.5rem;
+}
+.benefitshead{
+    text-align: center;
+
+}
+.btitle{
+    color: #6e6e6e;
+    font-family: "Hind",Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.bheading{
+    color: #292929;
+    font-family: "Hind",Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.334em;
+}
+/* grid */
+.bgrid{
+
+display: grid;
+width: 87%;
+margin: 3rem auto;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,310px);
+gap: 2rem;
+
+}
+.bgrid div{
+    /* border: 1px solid red; */
+}
+.bgrid >div >img{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* leaders */
+
+#leadersSec{
+    background-image: url("https://tint.melbourne/wp-content/uploads/2019/08/Tint-melbourne-Partner-with-us-hero.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+  
+}
+
+.leadermel{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+    background-color:  #38ad39;
+
+    color: #fff;
+    font-family: "Hind",Sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 45.696px;
+    padding: 3rem 0;
+
+
+
+}
+.leadermel>button{
+    background-color: white;
+    color: #38ad39;
+    width: 250px;
+    font-size: 15px;
+
+    padding: 15px 40px;
+    height: 60px;
+    border: none;
+}
+/* experience middle section  */
+.bexpdata{
+
+    /* border: 1px solid red; */
+    height: 470px;
+    
+}
+.innerbexp{
+  
+    height: 100%;
+    width:90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: "Hind",Sans-serif;
+}
+.bexp1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.bexp1 i{
+    font-size: 50px;
+    margin-top: 35px;
+
+}
+
+.exbox h2{
+    font-weight:bold ;
+    font-size: 40px;
+    /* border: 1px solid; */
+    margin-bottom: -20px;
+}
+
+
+/* leader industry  */
+.lindustry{
+    /* border: 1px solid rgb(255, 255, 255); */
+    height: 570px;
+    background-color: #38ad39 ;
+    text-align: center;
+    font-family: "Hind",Sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.ltitle{
+    color: #f0e5e5;
+    font-family: "Hind",Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.lheading{
+    color: #ffffff;
+    font-family: "Hind",Sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.334em;
+}
+
+.lindustryMain>hr{
+    width: 70px;
+    font-weight: bolder;
+    border: 3px solid rgb(252, 255, 252);
+    background-color: rgb(252, 252, 252);
+ 
+}
+.lindustryMain .lptag{
+    color: white;
+    /* border: 1px solid red; */
+    font-family: "Open Sans",Sans-serif;
+    font-weight: 500;
+    width: 70%;
+   
+}
+.lindustryMain .lptag2{
+    color: white;
+    font-weight: bold;
+}
+.indspan{
+    margin: 0 20px;
+    font-size: 20px;
+}
+/* tinting section */
+
+.tintgrid{
+  
+
+    display: grid;
+    width: 80%;
+    margin: 5rem auto;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,340px);
+    gap: 2rem;
+}
+
+
+
+/* all section */
+#allSection{
+    width: 85%;
+    margin: auto;
+
+}
+.allcontent{
+    font-family: "Open Sans",Sans-serif;
+    display: flex;
+    /* border: 1px solid red; */
+  
+  
+    justify-content: center;
+}
+.rounded{
+   
+    width: 10px;
+    /* border: 1px solid #38ad39; */
+    background-color: #38ad39;
+    height: 10px;
+    padding: 1px ;
+    margin: auto 10px;
+    border-radius: 50%;
+
+}
+.allimages {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,600px);
+    /* border: 1px solid red; */
+    margin:2rem 0;
+    gap: 2rem;
+}
+.allimages .all{
+    /* border: 1px solid green; */
+
+    background-image: url("https://tint.melbourne/wp-content/uploads/2020/05/96776798_264820198230857_3113892366667218944_o.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* our clients */
+
+#clients{
+
+ /* border: 1px solid grey; */
+ height: 100vh;
+ width: 85%;
+ margin: auto;
+ 
+
+}
+
+
+
+.clientheaddiv{
+    text-align: center;
+    /* border: 1px solid red; */
+    margin: 3rem auto;
+}
+.ctitle{
+    color: #6e6e6e;
+    font-family: "Hind",Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.cheading{
+    color: #292929;
+    font-family: "Hind",Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.334em;
+}
+/* client grid */
+.clientgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,150px);
+    row-gap: 2rem;
+    column-gap: 3rem;
+}
+.clientgrid>div{
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+.clientgrid>div>img{
+    width: 100%;
+    height: 100%;
+}
+.cbtndiv{
+    width: 10%;
+    margin: 0 auto;
+}
+.clientBtn{
+    width: 200px;
+    margin: 1.5rem auto;
+    border: none;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+
+
+/* blogs section  */
+
+#blogssection{
+    /* border: 1px solid black; */
+    width: 85%;
+    margin: 3rem auto;
+    background-image: url("https://ld-wp73.template-help.com/wordpress/prod_14995/v1/wp-content/uploads/2017/12/bgpattern3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blogGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,400px);
+    gap: 2.5rem;
+    margin-bottom: 7rem;
+}
+
+.blogGrid>div{
+    /* border:1px solid blue; */
+}
+.blogGrid>div>img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* footer */
+
+#footer{
+    height: 490px;
+    background-color: black;
+    color: white;
+}
+.footer{
+    width: 90%;
+    margin: auto;
+display: grid;
+grid-template-columns: 390px 300px 200px 300px;
+gap: 2.5rem;
+grid-template-rows: repeat(1,450px);
+}
+.footer>div{
+    /* border: 2px solid white; */
+}
+.fh2{
+    color: #fff;
+    font-family: "Hind",Sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 45.696px;
+}
+.ftags{
+    margin-top: 5rem;
+}
+.ftags>img{
+    width: 100px;
+}
+.contact>i{
+    color: #38ad39;
+}
+.footer p{
+    font-family: "Roboto",Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.fdiv>div:nth-child(1){
+text-align: left;
+width: 100px;
+}
+div>hr{
+    
+
+    width: 80px;
+    color: #38ad39;
+    border: 2x solid #38ad39;
+    background-color: #38ad39;
+}
+.fend{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
