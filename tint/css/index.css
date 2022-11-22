@@ -1,22 +1,30 @@
-.box{
-    border: 1px solid black;
-    width: 100%;
-    height: 100px;
-    background-color: green;
-    color: white;
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+.box {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100px;
+  background-color: green;
+  color: white;
   display: flex;
-  /* gap: 270px; */
-  justify-content: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
   align-items: center;
   font-weight: bold;
 }
 
-.box1{
-    border: 1px solid black;
-    width: 100%;
-    height: 130px;
-    background-color: black;
-    color: white;
+.box1 {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 130px;
+  background-color: black;
+  color: white;
   display: flex;
   gap: 70px;
   justify-content: center;
@@ -24,24 +32,85 @@
   font-weight: bold;
 }
 
-.box4 img{
-    width: 100%;
-height: 600px;
+.box4 img {
+  width: 100%;
+  height: 600px;
 }
 
-.box1 a{
-    color: white;
-text-decoration: none;
+.box1 a {
+  color: white;
+  text-decoration: none;
 }
-button{
-    width: 10%;
-    height: 50px;
-    background-color: green;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
+.box1 button {
+  width: 10%;
+  height: 50px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
-.box4{
+.box4 {
+  width: 100%;
+}
+.navbarlinks {
+  display: flex;
+  width: 100%;
+}
+
+/* media query  */
+@media screen and (max-width: 1000px) {
+    .box1{
+       gap: 18rem;
+    }
+  .box1 p,
+  a,
+  button {
+    display: none;
+  }
+  .box :nth-child(1) {
+    width: 80%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .box {
     width: 100%;
-   
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+  }
+  #boxptag {
+    font-size: 13px;
+    text-align: left;
+    font-family: sans-serif;
+    /* border: 2px solid white; */
+  }
+  .box1{
+    /* border: 1px solid red; */
+    gap: 20px;
+  }
+
+  .box1 p,
+  a {
+    display: none;
+  }
+  .box :nth-child(1) {
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+    .box1 img{
+        height: 70px;
+    }
+    .box1{
+        justify-content: center;
+    }
+
+
+
 }
