@@ -1,5 +1,7 @@
-.box{
-    border: 1px solid black;
+nav .box{
+    display: flex;
+    flex: wrap;
+    border: 1px solid red;
     width: 100%;
     height: 100px;
     background-color: green;
