@@ -21,6 +21,7 @@ body {
 
 .box1 {
   /* border: 1px solid black; */
+
   width: 100%;
   height: 130px;
   background-color: black;
@@ -30,6 +31,64 @@ body {
   justify-content: center;
   align-items: center;
   font-weight: bold;
+
+}
+
+
+.box1 span i{
+  display: none;
+}
+
+
+.box1 li {
+	color: #fff;
+  background: black;
+	display: block;
+	float: left;
+	padding: .5rem;
+	position: relative;
+	text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+.box1 li a {
+  color: #fff;
+ border-bottom:1px gray ;
+ font-family: "Hind", Sans-serif;
+
+}
+
+.box1 li:hover {
+	background :black;
+	cursor: pointer;
+}
+
+.box1 ul li ul {
+  width: 230px;
+  /* padding-bottom:1rem ; */
+  font-size: 12px;
+  list-style: none;
+	background: black;
+	visibility: hidden;
+  /* opacity: 18; */
+  /* min-width: 5rem; */
+	position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+	left: 0;
+  display: none;
+}
+
+.box1 ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.box1 ul li ul li {
+	clear: both;
+  width: 100%;
 }
 
 .box4 img {
@@ -59,6 +118,9 @@ body {
 
 /* media query  */
 @media screen and (max-width: 1000px) {
+  .box1 span i{
+    display: block;
+  }
     .box1{
        gap: 18rem;
     }

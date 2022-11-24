@@ -1,0 +1,21 @@
+.safety{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    font-size: 25px;
+    color: lightpink;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.safety p{
+padding-top: 50px;
+
+
+}
+
+.safety h4{
+  
+    text-align: center;
+    }
