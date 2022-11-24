@@ -1,9 +1,9 @@
 body {
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+   width: 100%;
     /* border: 1px solid red; */
-    box-sizing: border-box;
+    box-sizing: content-box;
   }
   
   .box {
@@ -59,8 +59,19 @@ body {
   
   /* media query  */
   @media screen and (max-width: 1000px) {
+    .projcard-innerbox{
+          border: 2px solid red;
+          width: 100%;
+    }
+    #procard{
+      border:5px solid red;
+      width: 90%;
+      box-sizing: border-box;
+    }
+  
       .box1{
          gap: 18rem;
+       
       }
     .box1 p,
     a,
@@ -117,11 +128,7 @@ body {
 
 
 
-  body {
-    font-family: 'Open Sans', arial, sans-serif;
-    color: #333;
-    font-size: 14px;
-  }
+
   .projcard-container {
     margin: 50px 0;
   }
@@ -423,6 +430,12 @@ body {
   
   /* media query */
   @media screen and (max-width: 1000px) {
+
+/* blog  */
+
+
+
+
     #Protect {
       /* border: 2px solid red; */
       box-sizing: border-box;
