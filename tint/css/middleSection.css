@@ -592,6 +592,6 @@ div > hr {
 
   #footer {
     height: fit-content;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
 }
